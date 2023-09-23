@@ -26,7 +26,7 @@ const imageSize = ref({
             A new platform for publishing, translating, and reading mangas & comics
           </div>
   
-          <tl-btn color="accent" class="max-w-[200px]" size="lg">
+          <tl-btn color="accent" class="max-w-[200px]" size="lg" to="https://forms.gle/zurRrBqm6hzCj8Xv7">
             Know more
           </tl-btn>
         </div>
