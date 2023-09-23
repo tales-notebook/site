@@ -1,5 +1,5 @@
 <template>
-  <div>
-    <NuxtPage />
-  </div>
+  <tl-app>
+    <HomeHero />
+  </tl-app>
 </template>
