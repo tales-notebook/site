@@ -16,5 +16,10 @@ useSeoMeta({
       <HomeAbout />
       <HomeNewsletter />
       <HomeFaq />
+
+      <div class="text-center py-4 text-sm">
+        contact@tales-notebook.com
+      </div>
+
   </tl-app>
 </template>
