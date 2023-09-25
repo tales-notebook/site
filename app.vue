@@ -3,7 +3,7 @@
 useSeoMeta({
   title: 'Tales notebook',
   description: 'A new platform for publishing, translating, and reading mangas & comics',
-  ogImage: '/images/og-image.png',
+  ogImage: '/images/og-image.jpg',
   ogTitle: 'Tales notebook',
   ogDescription: 'A new platform for publishing, translating, and reading mangas & comics',
   twitterCard: 'summary_large_image',
