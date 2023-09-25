@@ -64,9 +64,9 @@ const images = [
 
       <div class="relative z-10 w-full flex flex-wrap lg:flex-nowrap gap-y-4 justify-between max-w-[90%]">
         <div class="px-4 flex flex-col justify-center text-white w-full text-center lg:text-left lg:w-auto">
-          <div class="font-bold text-4xl lg:text-6xl mb-4 animate-bounce">
+          <h1 class="font-bold text-4xl lg:text-6xl mb-4 animate-bounce">
             Tales Notebook
-          </div>
+          </h1>
   
           <div class="mb-5 lg:text-xl pr-5">
             A new platform for publishing, translating, and reading mangas & comics

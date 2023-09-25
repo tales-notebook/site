@@ -1,7 +1,7 @@
 <template>
     <div class="min-h-screen flex items-center justify-center" >
         <div class="max-w-[800px] px-5">
-            <div class="text-4xl lg:text-6xl font-bold mb-5 lg:mb-10">Our mission</div>
+            <h2 class="text-4xl lg:text-6xl font-bold mb-5 lg:mb-10">Our mission</h2>
             
             <div class="w-full text-lg lg:text-lg flex flex-wrap space-y-5">
                 <p>

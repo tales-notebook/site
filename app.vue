@@ -3,5 +3,6 @@
       <HomeHero />
       <HomeAbout />
       <HomeNewsletter />
+      <HomeFaq />
   </tl-app>
 </template>
