@@ -1,5 +1,8 @@
 <template>
   <tl-app>
-    <HomeHero />
+    <div class="overflow-y-auto h-screen">
+      <HomeHero />
+      <HomeAbout />
+    </div>
   </tl-app>
 </template>
