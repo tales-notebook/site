@@ -6,6 +6,8 @@ const images = [
   { src: '/images/home-hero-slide-3.png' },
   { src: '/images/home-hero-slide-4.png' },
   { src: '/images/home-hero-slide-5.png' },
+  { src: '/images/home-hero-slide-6.png' },
+  { src: '/images/home-hero-slide-7.png' },
 ]
 
 </script>
