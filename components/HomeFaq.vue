@@ -21,7 +21,7 @@ const docs = computed(() => data.value ?? [])
                         {{ index + 1 }} - {{ doc.title }}
                     </h3>
         
-                    <ContentDoc :path="doc._path" />
+                    <ContentRenderer :value="doc" />
                 </div>
             </div>
 

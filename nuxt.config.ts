@@ -4,5 +4,8 @@ export default defineNuxtConfig({
   extends: [
     '../base-nuxt'
   ],
-  modules: ['@nuxt/content']
+  modules: ['@nuxt/content', 'nuxt-gtag'],
+  gtag: {
+    id: 'G-PJS5R6V63D'
+  },
 })
