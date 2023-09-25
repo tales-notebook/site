@@ -16,6 +16,7 @@ cd `dirname $0`
 BASE_URL=$BASE_URL npm run generate
 
 touch .output/public/.nojekyll
+echo tales-notebook.com >> .output/public/CNAME
 
 # navigate into the build output directory
 cd dist
