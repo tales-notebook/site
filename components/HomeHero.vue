@@ -73,7 +73,7 @@ const images = [
           </div>
   
           <tl-btn color="accent" class="w-full mx-auto lg:mx-0 max-w-[200px]"
-            :size="isTablet ? 'md' : 'lg' " to="https://forms.gle/zurRrBqm6hzCj8Xv7">
+            :size="isTablet ? 'md' : 'lg' " to="#newsletter">
             Know more
           </tl-btn>
         </div>
