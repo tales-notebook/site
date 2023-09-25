@@ -1,9 +1,12 @@
 <script lang="ts" setup>
 
-const imageSize = ref({
-    // width: 970,
-    height: 500,
-})
+const images = [
+  { src: '/images/home-hero-slide-1.png' },
+  { src: '/images/home-hero-slide-2.png' },
+  { src: '/images/home-hero-slide-3.png' },
+  { src: '/images/home-hero-slide-4.png' },
+  { src: '/images/home-hero-slide-5.png' },
+]
 
 </script>
 
@@ -30,21 +33,29 @@ const imageSize = ref({
             Know more
           </tl-btn>
         </div>
+
+        <tl-carrousel :items="images" width="800" height="500">
+          <template #item="{ item }">
+              <tl-img
+                :src="item.src"
+                :height="500"
+                class="w-full"
+              />
+          </template>
+        </tl-carrousel>
   
-        <tl-card
+        <!-- <tl-card
           class="shadow-lg"
           height="auto"
           width="auto"
           rounded="xl"
         >
           <tl-img
-            src="/images/home-hero-showcase.png"
-            :height="imageSize.height"
-            :width="imageSize.width"
+            src="/images/home-hero-slide-1.png"
+            :height="500"
             class="object-cover"
           />
-          <!-- Image by <a href="https://www.freepik.com/free-vector/hand-drawn-gaucho-drinking-mate-illustration_21251936.htm#query=character&position=42&from_view=keyword&track=sph">Freepik</a> -->
-        </tl-card>
+        </tl-card> -->
       </div>
     </div>
   </template>
