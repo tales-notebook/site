@@ -9,4 +9,7 @@ export default defineNuxtConfig({
   gtag: {
     id: 'G-PJS5R6V63D'
   },
+  content: {
+    locales: ["en-US"],
+  }
 })

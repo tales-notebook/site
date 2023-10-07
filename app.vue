@@ -1,25 +1,12 @@
 <script setup lang="ts">
 
-useSeoMeta({
-  title: 'Tales notebook',
-  description: 'A new platform for publishing, translating, and reading mangas & comics',
-  ogImage: '/images/og-image.jpg',
-  ogTitle: 'Tales notebook',
-  ogDescription: 'A new platform for publishing, translating, and reading mangas & comics',
-  twitterCard: 'summary_large_image',
-})
+provideLocalStoragePreferenceManager()
 
 </script>
 <template>
   <tl-app>
-      <HomeHero />
-      <HomeAbout />
-      <HomeNewsletter />
-      <HomeFaq />
-
-      <div class="text-center py-4 text-sm">
-        contact@tales-notebook.com
-      </div>
-
+      <nuxt-layout>
+        <nuxt-page />
+      </nuxt-layout>
   </tl-app>
 </template>
