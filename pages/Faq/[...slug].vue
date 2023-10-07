@@ -5,10 +5,21 @@ const slug = computed(() => String(route.params.slug));
 
 const response = await useContentTranslation("faq", slug.value).find();
 
-const post = response[0];
+const doc = response[0];
 
 </script>
 
 <template>
-  <ContentDoc v-if="post" :path="post._path" />
+  <div v-if="doc">
+
+    <div class="mb-4">
+      <h2 class="font-bold text-2xl">
+        {{ doc.title }}
+      </h2>
+    </div>
+
+    <div>
+      <ContentDoc  :path="doc._path" />
+    </div>
+  </div>
 </template>
