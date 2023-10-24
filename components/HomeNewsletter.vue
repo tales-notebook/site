@@ -17,7 +17,7 @@ const isMd = breakpoint.smallerOrEqual('md')
             </div>
 
             <tl-btn color="accent" class="w-full mx-auto lg:mx-0 max-w-[200px]"
-                :size="isMd ? 'md' : 'lg' " to="https://forms.gle/zurRrBqm6hzCj8Xv7">
+                :size="isMd ? 'md' : 'lg' " to="http://eepurl.com/iBFgtw">
                 Sign up
             </tl-btn>
         </div>
