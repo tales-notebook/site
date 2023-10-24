@@ -11,5 +11,8 @@ export default defineNuxtConfig({
   },
   content: {
     locales: ["en-US"],
+  },
+  generate: {
+    routes: ['/api/i18n']
   }
 })
