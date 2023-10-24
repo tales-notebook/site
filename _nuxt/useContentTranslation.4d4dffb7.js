@@ -1,0 +1,1 @@
+import{E as n}from"./entry.1f09f52c.js";import{q as r}from"./query.25bf096e.js";function c(e,...o){const{locale:a,fallbackLocale:l}=n();return r(e,...o).where({$or:[{_locale:a.value},{_locale:l.value}]})}export{c as u};
